@@ -1,0 +1,23 @@
+#contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{ background-color: #f6d754;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 50px;
+    
+
+}
+
+.escribinos {
+    font-size: 30px;
+    border-bottom: #f6d754 solid 10px;
+}

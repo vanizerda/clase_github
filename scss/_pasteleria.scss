@@ -1,0 +1,68 @@
+.grilla{
+    background-color: #f8e9c8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#header-pasteleria {
+    background:linear-gradient(45deg, rgb(196,223,115) 30%,rgb(196,223,115) 30%,rgb(246,215,84) 49%,rgb(248,233,200) 85%,rgb(248,233,200) 85%);
+    height: 80px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pregunta {
+    display: flex;
+    flex-direction: column;
+    
+    width: 1000px;
+    height: 800px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.texto {
+    text-align: center;
+    font-size: 26px;
+}
+
+.torta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.primera {
+    padding: 10px;
+    border:#a1b480 10px solid;
+}
+
+#medio {
+    height: 700px;
+    width: 700px;
+    padding: 10px;
+    border:#a1b480 10px solid;
+}
+
+.final {
+    padding: 10px;
+    border:#a1b480 10px solid;
+}
+
+picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quees {
+    font-size: 38px;
+    width: 1500px;
+}

@@ -1,0 +1,161 @@
+h3 {
+    color: #a1b480;
+}
+
+.harina {
+    height: 850px;
+    width: 600px;
+    padding: 10px;
+    border:#a1b480 10px solid;
+}
+
+.harina-manos {
+    height: 800px;
+    width: 600;
+    padding: 10px;
+    border:#a1b480 10px solid;
+    
+}
+
+.miel {
+    height: 700px;
+    width: 400px;
+    padding: 10px;
+    border:#a1b480 10px solid;
+}
+
+.leche-almendras {
+    height: 650px;
+    width: 450px;
+    padding: 10px;
+    border:#a1b480 10px solid;
+}
+
+.huevos {
+    height: 650px;
+    width: 450px;
+    padding: 10px;
+    border:#a1b480 10px solid;
+}
+
+.oliva{
+    padding: 10px;
+    border:#a1b480 10px solid;
+}
+
+#ingredientes {
+    display: grid;
+    grid-template-areas:
+
+     "header-ingredientes header-ingredientes header-ingredientes header-ingredientes header-ingredientes"
+     "con-gluten con-gluten con-gluten uno uno"
+     "harinassingluten harinassingluten harinassingluten harinassingluten harinassingluten"
+     "dos dos dos dos dos"
+     "tres tres endulzantes endulzantes endulzantes"
+     "grasas grasas grasas grasas grasas"
+     "cuatro cuatro cuatro cuatro cuatro"
+     "lacteos lacteos lacteos cinco cinco";
+    justify-items: center;
+    align-items: flex-start;
+}
+
+header#header-ingredientes {
+    grid-area: header-ingredientes;
+    height: 150px;
+    width: 1500px;
+    background:linear-gradient(45deg, rgb(196,223,115) 30%,rgb(196,223,115) 30%,rgb(246,215,84) 49%,rgb(248,233,200) 85%,rgb(248,233,200) 85%);
+
+}
+
+.enlaces {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.A2 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:#a1b480;
+    padding: 20px;}
+
+    .A2:hover {
+        color: #d694c1;
+    }
+
+
+section#con-gluten {
+    grid-area: con-gluten;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 700px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+picture.uno {
+    grid-area: uno;
+    align-self: center;
+}
+
+section#harinassingluten {
+    grid-area: harinassingluten;
+    width: 900px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+picture.dos {
+    grid-area: dos;
+    margin-top: 30px;
+}
+
+picture.tres {
+    grid-area: tres;
+    align-self:flex-start;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+section#endulzantes {
+    grid-area: endulzantes;
+    width: 700px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+section#grasas {
+    grid-area: grasas;
+    width: 900px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+picture.cuatro {
+    grid-area: cuatro;
+    margin-top: 30px;
+}
+
+section#lacteos {
+    grid-area: lacteos;
+    width: 700px;
+    margin-top: 50px;
+}
+
+picture.cinco {
+    grid-area: cinco;
+    margin-top: 70px;
+    align-self: center;
+}
+
+
+.titulos {
+    font-size: 30px;
+    border-bottom: #f6d754 10px solid;
+}
+
+

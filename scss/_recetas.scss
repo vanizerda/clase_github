@@ -1,0 +1,157 @@
+.comparti {
+    font-size: 32px
+    ;
+}
+
+.titulos-recetas {
+    color: #a1b480;
+    font-size: 32px;
+}
+ 
+#cabeza-recetas {
+    height: 200px;
+    text-align: center;
+    background:linear-gradient(45deg, rgb(196,223,115) 30%,rgb(196,223,115) 30%,rgb(246,215,84) 49%,rgb(248,233,200) 85%,rgb(248,233,200) 85%);
+}
+
+#titulo-principal {
+    font-size: 38px;
+}
+
+.ver-receta {
+    color: #a1b480;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.ver-receta:hover
+{
+    color: #f6d754;
+}
+
+#rellenas {
+    width:400px ;
+    height: 500px;
+    border: #f6d754 solid 10px;
+
+}
+
+#torta {
+    width: 400px ;
+    height: 500px ;
+    border: #f6d754 solid 10px;
+}
+
+
+
+#flores {
+    width: 400px;
+    height:500px ;
+    border: #f6d754 solid 10px;
+ 
+}
+
+
+#frutillas {
+    width: 400px;
+    height: 500px;
+    border: #f6d754 solid 10px;
+}
+
+
+#div1 {
+    background-color: #ffff;
+    padding: 10px;
+    margin: 10px;
+    border:  #a1b480 solid 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#receta1 {
+    width: 700px;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#div2 {
+    background-color: #ffff;
+    padding: 10px;
+    margin: 10px;
+    border:  #a1b480 solid 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#receta2 {
+    width: 700px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#div3 {
+    background-color: #ffff;
+    padding: 10px;
+    margin: 10px;
+    border:  #a1b480 solid 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#receta3 {
+    width: 700px;
+    flex-direction: column;
+    text-align: center;}
+
+
+    #div4 {
+        background-color: #ffff;
+        padding: 10px;
+        margin: 10px;
+        border:  #a1b480 solid 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #receta4 {
+        width: 700px;
+        flex-direction: column;
+        text-align: center;}
+    
+        .texto2 {
+            font-size: 20px;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            
+            .grid-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .muffins {
+                margin-left: 500px;
+            }
+
+            nav {
+                align-items: flex-start;
+            }
+
+            .derecha {
+                text-align: center;
+                margin: auto;
+            }
+
+        p {
+            margin-right: 20px;
+        }
+            
+        }

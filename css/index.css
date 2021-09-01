@@ -1,0 +1,412 @@
+ul {
+  list-style-type: none; }
+  ul li {
+    display: inline; }
+
+body {
+  background-color: #f8e9c8;
+  padding: #f6d754; }
+
+.A1 {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #d694c1;
+  padding: 20px; }
+
+.A1:hover {
+  color: #f6d754; }
+
+p {
+  color: #a1b480;
+  text-align: center;
+  margin: auto;
+  font-size: 26px; }
+
+h1 {
+  color: #a1b480;
+  margin: auto; }
+
+img {
+  margin: auto; }
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch; }
+
+.cabecera {
+  display: flex;
+  height: 250px;
+  justify-content: space-between;
+  align-items: center; }
+
+.muffins {
+  padding: 20px;
+  height: 650px;
+  width: 450px;
+  border: 10px #a1b480 solid; }
+
+.derecha {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline; }
+
+.bien {
+  height: 200px;
+  width: 200px; }
+
+.foto-muffins {
+  padding: 20px;
+  margin: 20px; }
+
+nav {
+  padding: 5px;
+  margin: 10px; }
+
+.pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; }
+
+.email {
+  margin: auto; }
+
+.marco-logo {
+  height: 250px; }
+
+.instagram {
+  height: 40px;
+  width: 40px; }
+
+.derecha {
+  margin: auto; }
+
+@media only screen and (max-width: 500px) {
+  .derecha {
+    width: 300px;
+    height: 300px; }
+  .pie {
+    width: 400px; }
+  h1 {
+    font-size: 20px; }
+  p {
+    font-size: 16px; } }
+
+.grilla {
+  background-color: #f8e9c8;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+#header-pasteleria {
+  background: linear-gradient(45deg, #c4df73 30%, #c4df73 30%, #f6d754 49%, #f8e9c8 85%, #f8e9c8 85%);
+  height: 80px;
+  width: 1500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.pregunta {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 800px;
+  padding: 10px;
+  margin: 20px; }
+
+.texto {
+  text-align: center;
+  font-size: 26px; }
+
+.torta {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.primera {
+  padding: 10px;
+  border: #a1b480 10px solid; }
+
+#medio {
+  height: 700px;
+  width: 700px;
+  padding: 10px;
+  border: #a1b480 10px solid; }
+
+.final {
+  padding: 10px;
+  border: #a1b480 10px solid; }
+
+picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.quees {
+  font-size: 38px;
+  width: 1500px; }
+
+h3 {
+  color: #a1b480; }
+
+.harina {
+  height: 850px;
+  width: 600px;
+  padding: 10px;
+  border: #a1b480 10px solid; }
+
+.harina-manos {
+  height: 800px;
+  width: 600;
+  padding: 10px;
+  border: #a1b480 10px solid; }
+
+.miel {
+  height: 700px;
+  width: 400px;
+  padding: 10px;
+  border: #a1b480 10px solid; }
+
+.leche-almendras {
+  height: 650px;
+  width: 450px;
+  padding: 10px;
+  border: #a1b480 10px solid; }
+
+.huevos {
+  height: 650px;
+  width: 450px;
+  padding: 10px;
+  border: #a1b480 10px solid; }
+
+.oliva {
+  padding: 10px;
+  border: #a1b480 10px solid; }
+
+#ingredientes {
+  display: grid;
+  grid-template-areas: "header-ingredientes header-ingredientes header-ingredientes header-ingredientes header-ingredientes" "con-gluten con-gluten con-gluten uno uno" "harinassingluten harinassingluten harinassingluten harinassingluten harinassingluten" "dos dos dos dos dos" "tres tres endulzantes endulzantes endulzantes" "grasas grasas grasas grasas grasas" "cuatro cuatro cuatro cuatro cuatro" "lacteos lacteos lacteos cinco cinco";
+  justify-items: center;
+  align-items: flex-start; }
+
+header#header-ingredientes {
+  grid-area: header-ingredientes;
+  height: 150px;
+  width: 1500px;
+  background: linear-gradient(45deg, #c4df73 30%, #c4df73 30%, #f6d754 49%, #f8e9c8 85%, #f8e9c8 85%); }
+
+.enlaces {
+  display: flex;
+  justify-content: space-around; }
+
+.A2 {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #a1b480;
+  padding: 20px; }
+
+.A2:hover {
+  color: #d694c1; }
+
+section#con-gluten {
+  grid-area: con-gluten;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 700px;
+  text-align: center;
+  margin-top: 20px; }
+
+picture.uno {
+  grid-area: uno;
+  align-self: center; }
+
+section#harinassingluten {
+  grid-area: harinassingluten;
+  width: 900px;
+  text-align: center;
+  margin-top: 20px; }
+
+picture.dos {
+  grid-area: dos;
+  margin-top: 30px; }
+
+picture.tres {
+  grid-area: tres;
+  align-self: flex-start;
+  margin-top: 150px;
+  margin-left: 40px; }
+
+section#endulzantes {
+  grid-area: endulzantes;
+  width: 700px;
+  text-align: center;
+  margin-top: 30px; }
+
+section#grasas {
+  grid-area: grasas;
+  width: 900px;
+  text-align: center;
+  margin-top: 30px; }
+
+picture.cuatro {
+  grid-area: cuatro;
+  margin-top: 30px; }
+
+section#lacteos {
+  grid-area: lacteos;
+  width: 700px;
+  margin-top: 50px; }
+
+picture.cinco {
+  grid-area: cinco;
+  margin-top: 70px;
+  align-self: center; }
+
+.titulos {
+  font-size: 30px;
+  border-bottom: #f6d754 10px solid; }
+
+.comparti {
+  font-size: 32px; }
+
+.titulos-recetas {
+  color: #a1b480;
+  font-size: 32px; }
+
+#cabeza-recetas {
+  height: 200px;
+  text-align: center;
+  background: linear-gradient(45deg, #c4df73 30%, #c4df73 30%, #f6d754 49%, #f8e9c8 85%, #f8e9c8 85%); }
+
+#titulo-principal {
+  font-size: 38px; }
+
+.ver-receta {
+  color: #a1b480;
+  text-decoration: none;
+  font-size: 30px; }
+
+.ver-receta:hover {
+  color: #f6d754; }
+
+#rellenas {
+  width: 400px;
+  height: 500px;
+  border: #f6d754 solid 10px; }
+
+#torta {
+  width: 400px;
+  height: 500px;
+  border: #f6d754 solid 10px; }
+
+#flores {
+  width: 400px;
+  height: 500px;
+  border: #f6d754 solid 10px; }
+
+#frutillas {
+  width: 400px;
+  height: 500px;
+  border: #f6d754 solid 10px; }
+
+#div1 {
+  background-color: #ffff;
+  padding: 10px;
+  margin: 10px;
+  border: #a1b480 solid 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+#receta1 {
+  width: 700px;
+  flex-direction: column;
+  text-align: center; }
+
+#div2 {
+  background-color: #ffff;
+  padding: 10px;
+  margin: 10px;
+  border: #a1b480 solid 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+#receta2 {
+  width: 700px;
+  flex-direction: column;
+  text-align: center; }
+
+#div3 {
+  background-color: #ffff;
+  padding: 10px;
+  margin: 10px;
+  border: #a1b480 solid 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+#receta3 {
+  width: 700px;
+  flex-direction: column;
+  text-align: center; }
+
+#div4 {
+  background-color: #ffff;
+  padding: 10px;
+  margin: 10px;
+  border: #a1b480 solid 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+#receta4 {
+  width: 700px;
+  flex-direction: column;
+  text-align: center; }
+
+.texto2 {
+  font-size: 20px; }
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .muffins {
+    margin-left: 500px; }
+  nav {
+    align-items: flex-start; }
+  .derecha {
+    text-align: center;
+    margin: auto; }
+  p {
+    margin-right: 20px; } }
+
+#contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+form {
+  background-color: #f6d754;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 50px; }
+
+.escribinos {
+  font-size: 30px;
+  border-bottom: #f6d754 solid 10px; }

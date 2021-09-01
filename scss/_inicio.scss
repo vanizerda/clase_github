@@ -1,0 +1,95 @@
+
+
+
+body {
+    background-color: $colorbg;
+    padding: #f6d754; }
+  
+  .A1 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d694c1;
+    padding: 20px; }
+
+    .A1:hover {
+        color: #f6d754; }
+      
+      p {
+        color: $color-text;
+        text-align: center;
+        margin: auto;
+        font-size: 26px; }
+      
+      h1 {
+        color:$color-text;
+        margin: auto; }
+
+        img {
+            margin: auto; }
+          
+          .container-fluid {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: stretch; }
+          
+          .cabecera {
+            display: flex;
+            height: 250px;
+            justify-content: space-between;
+            align-items: center; }
+          
+          .muffins {
+            padding: 20px;
+            height: 650px;
+            width: 450px;
+            border: 10px #a1b480 solid; }
+          
+          .derecha {
+            width: 800px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline; }
+          
+          .bien {
+            height: 200px;
+            width: 200px; }
+          
+          .foto-muffins {
+            padding: 20px;
+            margin: 20px; }
+          
+          nav {
+            padding: 5px;
+            margin: 10px; }
+          
+          .pie {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px; }
+          
+          .email {
+            margin: auto; }
+          
+          .marco-logo {
+            height: 250px; }
+          
+          .instagram {
+            height: 40px;
+            width: 40px; }
+          
+          .derecha {
+            margin: auto; }
+          
+          @media only screen and (max-width: 500px) {
+            .derecha {
+              width: 300px;
+              height: 300px; }
+            .pie {
+              width: 400px; }
+            h1 {
+              font-size: 20px; }
+            p {
+              font-size: 16px; } }
